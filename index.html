@@ -14,6 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <title>Weather Application</title>
 </head>
 
@@ -29,7 +30,7 @@
         <main>
             <div class="current-weather">
                 <div class="current-weather-details">
-                    <h1 class="city" id="city">Johannesburg</h1>
+                    <h1 class="city" id="city"></h1>
                     <p>Sunday 15:00, Mostly sunny
                         <br />
                         Humidity: <strong>17%</strong>, Wind: <strong>13km/h</strong>
@@ -37,7 +38,7 @@
                 </div>
                 <div class="current-conditions">
                     <div class="icon"> 🌤️</div>
-                    <div class="temperature"> 24</div>
+                    <div class="temperature" id="temperature"></div>
                     <div class="unit">℃</div>
                 </div>
             </div>
@@ -48,6 +49,7 @@
             <a href="https://weatherapplicatioshecodes.netlify.app" target="_blank"> Netlify</a>
         </footer>
     </div>
+    <script src="src/index.js"></script>
 </body>
 
 </html>
