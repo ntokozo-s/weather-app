@@ -61,13 +61,13 @@ main {
   justify-content: space-around;
 }
 .icon {
-  font-size: 46px;
-  margin-top: 23px;
+  height: 92px;
+  margin-top: 7px;
+  width: 92px;
 }
 .temperature {
   font-size: 92px;
   font-weight: 900;
-  margin-left: 12px;
 }
 .unit {
   margin-top: 18px;
