@@ -87,20 +87,26 @@ main {
   font-size: 18px;
   line-height: 22px;
   margin-bottom: 12px;
+  text-align: center;
 }
 .forecast-icon {
   display: block;
-  height: 90px;
+  height: 80px;
   margin: 0 auto;
-  width: 90px;
+  width: 80px;
 }
 .forecast-temperature {
   color: #3b50b2;
   display: flex;
+  font-size: 16px;
   justify-content: center;
   margin-top: 12px;
   text-align: center;
 }
+.minimum-temp {
+  margin-left: 5px;
+}
+
 footer {
   border-top: 1px solid #e5e2de;
   color: #424874;
